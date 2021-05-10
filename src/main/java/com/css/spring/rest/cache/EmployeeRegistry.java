@@ -27,8 +27,7 @@ import com.google.common.cache.CacheBuilder;
 @Component
 public class EmployeeRegistry implements DisposableBean, InitializingBean {
 
-    private static final String dataStorageFile = "/home/kishore/Projects/MyProjects/Java/Spring/SpringRestDemo/src/main/resources/employee_data.sql";
-
+    private static final String dataStorageFile = "C:/Workspace/SpringRestDemo/src/main/resources/employee_data.sql";
     private static EmployeeRegistry INSTANCE = new EmployeeRegistry();
 
     private Cache<Long, Employee> cache = CacheBuilder.newBuilder().maximumSize(100).build();

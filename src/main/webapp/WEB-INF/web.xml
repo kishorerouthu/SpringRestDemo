@@ -21,7 +21,7 @@
 
   <servlet-mapping>
     <servlet-name>dispatcher</servlet-name>
-    <url-pattern>/services/*</url-pattern>
+    <url-pattern>/employees/*</url-pattern>
   </servlet-mapping>
 
   <context-param>

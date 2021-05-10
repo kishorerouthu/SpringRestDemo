@@ -20,7 +20,7 @@ import static com.css.spring.rest.util.StringWrapper.SUCCESS_RESPONSE;
  * @author Kishore Routhu on 22/7/17 8:55 PM.
  */
 @RestController
-@RequestMapping(path = "/employees", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(path = "/employees", produces = MediaType.APPLICATION_JSON_VALUE)
 public class EmployeeController {
 
     @Autowired
